@@ -2,7 +2,7 @@
 
 - Status: **Proposed**
 - Deciders: TGAY
-- Date: [24-03-2021 when the decision was last updated]
+- Date: 24-03-2021
 
 ## Context and Problem Statement
 

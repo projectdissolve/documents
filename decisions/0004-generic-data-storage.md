@@ -66,7 +66,7 @@ Chosen option: "`std::any`", because it requires no additional dependencies (unl
 - Good, because the size of the `std::any` is defined by the individual type stored
 - Bad, because there is no equivalent of `std::visit`, so (e.g.) templated function registrations must be employed to provide functionality
 - Good, because the use of templated function registrations can be made outside of the templated `GenericItem` class functions, removing direct include dependencies in the build chain
-- Bad, because need to indicate contained types at runtime via `typeid`
+- Bad, because need to indicate contained types at runtime via `typeid`.  This could lead to type errors that aren't caught be the compiler, though this should only occur if someone tries to do something "clever".
 
 ### `boost::fusion`
 
